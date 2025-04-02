@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(date): Log entry" >> log.txt
+echo "$(date): Log entry by $GITHUB_ACTOR" >> log.txt
